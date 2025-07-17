@@ -23,7 +23,7 @@ This python project made on Google Colab allows users to fetch several tweets ba
 
 3. **Upload your Bearer Token:**
 
-   You would have to upload your 'Bearer Token'. Click [here](#BearerToken?) to know how to acquire it.
+   You would have to upload your 'Bearer Token'. Scroll down to find the steps to obtain it.
 
 4. **Input your preferences:**
 
@@ -36,3 +36,8 @@ This python project made on Google Colab allows users to fetch several tweets ba
 
    
 ## How to get your Bearer Token?
+
+  A Bearer Token is a secret key used to authenticate and, access the Twitter API v2 securely. Required for making authorized API requests like fetching tweets.
+  This token verifies your identity and ensures that your app has the necessary permissions to interact with Twitter's services.
+
+  **NOTE: Keep it private and never share it publicly.**
