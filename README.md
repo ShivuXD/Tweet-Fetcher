@@ -37,7 +37,8 @@ This python project made on Google Colab allows users to fetch several tweets ba
    
 ## How to get your Bearer Token?
 
-   *What is a Bearer Token?*
+*What is a Bearer Token?*
+  
   A Bearer Token is a secret key used to authenticate and, access the Twitter API v2 securely. Required for making authorized API requests like fetching tweets.
   This token verifies your identity and ensures that your app has the necessary permissions to interact with Twitter's services.
 
