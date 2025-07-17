@@ -43,3 +43,14 @@ This python project made on Google Colab allows users to fetch several tweets ba
   This token verifies your identity and ensures that your app has the necessary permissions to interact with Twitter's services.
 
   **NOTE: Keep it private and never share it publicly.**
+
+ ### 🔐 Step 1: Create a Twitter/X Developer Account
+   1. Visit developer.twitter.com
+
+   2. Log in with your Twitter account.
+
+   3. Click on "Apply" to become a developer.
+
+   4. Choose "Exploring the API" or similar for personal/test usage.
+
+   5. Fill in the details and submit the form.
