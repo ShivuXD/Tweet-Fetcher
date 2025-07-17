@@ -42,7 +42,7 @@ This python project made on Google Colab allows users to fetch several tweets ba
   A Bearer Token is a secret key used to authenticate and, access the Twitter API v2 securely. Required for making authorized API requests like fetching tweets.
   This token verifies your identity and ensures that your app has the necessary permissions to interact with Twitter's services.
 
-  **NOTE: Keep it private and never share it publicly.**
+  **NOTE: Treat your Token like a password. Keep it private and never share it publicly.**
 
  ### 🔐 Step 1: Create a Twitter/X Developer Account
    1. Visit **[developer.twitter.com](https://developer.x.com/)**
@@ -66,10 +66,26 @@ This python project made on Google Colab allows users to fetch several tweets ba
 
 
  ### 🔑 Step 3: Get Your Bearer Token
-Go to your App → Keys and Tokens.
 
-Scroll to Authentication Tokens.
+   1. Go to your App → Keys and Tokens.
 
-Click "Generate Bearer Token".
+   2. Scroll to Authentication Tokens.
 
-Copy it — you’ll only see it once!
+   3. Click "Generate Bearer Token".
+
+   4. Copy it and, save it somewhere else. The Token would be generated and, shown you once unless re-generated.
+
+
+## Script Explaination 
+
+### Libraries of Function
+
+This python script uses `tweepy` library to aaccess the Twitter/X API, to fetch posts based on a hashtag or, keyword given by the user using their Bearer Token.
+The project also uses `getpass` library to let users enter their sensitive information (e.g Bearer Token) without displaying it on the screen, it is used to keep your API key/Bearer Token secure when you're running this program and, ensuring proper security of it.
+
+
+  ### Working
+
+   This script allows users to fetch recent posts from X (formerly Twitter) using a keyword or, a hashtag. The user is given secured entry for their Bearer Token and, search input (i.e Keyword, Hashtag). Then the script uses the Tweepy library to connect to X’s API and, fetch posts which is directly related or, is similar to the user's query. It then displays each post's content and their user handles directly as the final output.
+
+
