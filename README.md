@@ -45,12 +45,31 @@ This python project made on Google Colab allows users to fetch several tweets ba
   **NOTE: Keep it private and never share it publicly.**
 
  ### 🔐 Step 1: Create a Twitter/X Developer Account
-   1. Visit developer.twitter.com
+   1. Visit **[developer.twitter.com](https://developer.x.com/)**
 
-   2. Log in with your Twitter account.
+   2. Log in with your Twitter/X account.
 
-   3. Click on "Apply" to become a developer.
+   4. Click on "Apply" to become a Twitter/X developer.
 
-   4. Choose "Exploring the API" or similar for personal/test usage.
+   5. Choose " Exploring the API " or, similar for personal/test usage.
 
-   5. Fill in the details and submit the form.
+   6. Fill in the details and submit it.
+
+
+ ### ⚙️ Step 2: Create a Project & App
+ 
+   1. After the approval, go to your Developer Dashboard.
+
+   2. Click "Create Project" and fill in the name and, it's purpose.
+
+   3. Then create an App under that project.
+
+
+ ### 🔑 Step 3: Get Your Bearer Token
+Go to your App → Keys and Tokens.
+
+Scroll to Authentication Tokens.
+
+Click "Generate Bearer Token".
+
+Copy it — you’ll only see it once!
