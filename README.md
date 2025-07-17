@@ -23,7 +23,7 @@ This python project made on Google Colab allows users to fetch several tweets ba
 
 3. **Upload your Bearer Token:**
 
-   You would have to upload your 'Bearer Token'. Click [here](#How to find your Bearer Token?) to know how to acquire it.
+   You would have to upload your 'Bearer Token'. Click [here](#BearerToken?) to know how to acquire it.
 
 4. **Input your preferences:**
 
